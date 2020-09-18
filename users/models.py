@@ -6,4 +6,10 @@ from django.contrib.auth.models import AbstractUser
 
 
 class User(AbstractUser):
+    # birthday = models.DateField()
+    # looked at custom user model link, tried the code above
+    # possibly import AbstracrUser in models.py contacts?
     pass
+
+    
+    
