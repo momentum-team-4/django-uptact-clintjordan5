@@ -12,4 +12,14 @@ class User(AbstractUser):
     pass
 
     
-    
+# class Note() placeholder
+"""
+Add a new model, Note, to the contacts app. 
+This model should contain text for the note and the date/time of the note. 
+Look at the auto_now_add option for the DateTimeField to have the date/time automatically populated.
+Connect the Note model to the Contact model using a ForeignKey.
+Use the Django console to add a note to one of your contacts.
+Make a new view and template to see an individual contact. 
+The URL for this view should be contacts/<int:pk>/. Show the notes for that contact on this individual view. 
+Otherwise, this page can look like an individual contact on the contacts list page.
+"""
