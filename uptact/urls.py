@@ -17,6 +17,8 @@ from django.contrib import admin
 from django.conf import settings
 from django.urls import include, path
 from contacts import views as contacts_views
+from users import views as users_views
+# added user import
 
 urlpatterns = [
     path('admin/', admin.site.urls),
